@@ -32,12 +32,12 @@
         <nav>
           <ul class="space-y-2">
             <li>
-              <a href="dashboard.html" class="flex items-center p-2 rounded-md transition-all hover:bg-blue-700">
+              <a href="/workout-journey/dashboard.html" class="flex items-center p-2 rounded-md transition-all hover:bg-blue-700">
                 ダッシュボード
               </a>
             </li>
             <li>
-              <a href="workout.html" class="flex items-center p-2 rounded-md bg-blue-700 transition-all hover:bg-blue-600">
+              <a href="/workout-journey/workout.html" class="flex items-center p-2 rounded-md bg-blue-700 transition-all hover:bg-blue-600">
                 ワークアウト
               </a>
             </li>
@@ -92,14 +92,14 @@
         !button.classList.contains('close-modal')
       ) {
         button.addEventListener('click', function() {
-          window.location.href = 'dashboard.html';
+          window.location.href = '/workout-journey/dashboard.html';
         });
       }
     });
 
     // キャンセルボタンのみダッシュボードへの遷移
     document.querySelector('.mt-6.flex.justify-end.space-x-4 button[type="button"]').addEventListener('click', function() {
-      window.location.href = 'dashboard.html';
+      window.location.href = '/workout-journey/dashboard.html';
     });
 
     // タブ切り替え機能
